@@ -8,8 +8,9 @@
     "cypress:run": "npx cypress run --spec **/*.cy.js",
     "test:chrome": "cypress run --browser chrome",
     "report:merge": "mochawesome-merge cypress/reports/json/*.json > index.json",
-    "report:generate": "marge index.json --reportDir public --assetsDir public/assets --reportPageTitle index.html"
-    
+    "report:generate": "marge index.json --reportDir public --assetsDir public/assets --reportPageTitle index.html",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,7 @@
     "mocha": "^11.6.0",
     "mochawesome": "^7.1.3",
     "mochawesome-merge": "^5.0.0",
-    "mochawesome-report-generator": "^6.2.0"
+    "mochawesome-report-generator": "^6.2.0",
+    "prettier": "^3.5.3"
   }
 }

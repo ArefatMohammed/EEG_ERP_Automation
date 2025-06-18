@@ -1,0 +1,9 @@
+{
+  "user": {
+    "name": "John Doe",
+    "email": "john39.doe@example.com",
+    "gender": "male",
+    "status": "active"
+  },
+  "token": "53129796255fe40dcf0d1b94f99bfb4ee06f8a00f1e6c492ea4b307e453554c2"
+}

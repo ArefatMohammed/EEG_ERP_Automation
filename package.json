@@ -5,10 +5,11 @@
   "main": "index.js",
   "scripts": {
     "cypress:open": "./node_modules/.bin/cypress open",
-    "cypress:run": "./node_modules/.bin/cypress run --spec **/*.cy.js",
+    "cypress:run": "npx cypress run --spec **/*.cy.js",
     "test:chrome": "cypress run --browser chrome",
     "report:merge": "mochawesome-merge cypress/reports/json/*.json > index.json",
     "report:generate": "marge index.json --reportDir public --assetsDir public/assets --reportPageTitle index.html"
+    
   },
   "repository": {
     "type": "git",
@@ -20,10 +21,8 @@
     "url": "https://github.com/ashikkumar23/api-testing-cypress/issues"
   },
   "homepage": "https://github.com/ashikkumar23/api-testing-cypress#readme",
-  "dependencies": {
-    "cypress": "^14.4.1"
-  },
   "devDependencies": {
+    "cypress": "^14.4.1",
     "cypress-multi-reporters": "^2.0.5",
     "mocha": "^11.6.0",
     "mochawesome": "^7.1.3",

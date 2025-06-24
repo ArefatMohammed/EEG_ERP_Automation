@@ -3,6 +3,7 @@ const {
 } = require("cypress");
 
 module.exports = defineConfig({
+  projectId: 'hiqtck',
     reporter: 'cypress-multi-reporters',
     reporterOptions: {
         configFile: 'reporter-config.json'

@@ -2,8 +2,8 @@ name: Update Dependencies
 
 on:
   schedule:
-# Runs at 00:00 on Wednesday
-    - cron: '0 0 * * 3'
+    # Runs at 00:00 on Wednesday
+    - cron: "0 0 * * 3"
 
 jobs:
   package-update:

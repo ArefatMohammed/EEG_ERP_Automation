@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+
 # Cypress REST API Test Framework
 
 [![Actions Status](https://github.com/ashikkumar23/api-testing-cypress/workflows/Update%20Dependencies/badge.svg)](https://github.com/ashikkumar23/api-testing-cypress/actions/workflows/package_update.yml)
@@ -103,8 +104,10 @@ npm install --save-dev mochawesome-report-generator
 ## 🚀 Notes:
 
 - `.github/workflows/package_update.yml` workflow would ensure the dependencies are up-to-date
-- Tests are always run on the latest dependencies ✅
-=======
+- # Tests are always run on the latest dependencies ✅
+
 # EEG_ERP_Automation
+
 Repository for EEG_ERP automation testing, containing Cypress test suites for end-to-end UI and API validation of the ERP system. Includes CI/CD pipelines for automated test execution, test scripts, and artifacts (screenshots, videos).
->>>>>>> 8e9d2176110c71018e6fd2982f8f4a94b3590cdc
+
+> > > > > > > 8e9d2176110c71018e6fd2982f8f4a94b3590cdc
